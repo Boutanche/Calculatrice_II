@@ -71,5 +71,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String buttonText = button.getText().toString();
         tn_operation.setText(buttonText);
 
+        if(buttonText.equals("RAZ")){
+            tn_result.setText("0");
+            tn_operation.setText("");
+        }
+
+        String dataToCalculate = tn_result.getText().toString();
+        dataToCalculate = dataToCalculate+buttonText;
+        tn_result.setText(dataToCalculate);
+
     }
 }
