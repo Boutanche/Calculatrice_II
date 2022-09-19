@@ -1,3 +1,3 @@
 # Calculatrice_II
 
-Projet pour Master Concepteur Architecte Indformatique 
+Projet pour TP1 : Master -- Concepteur Architecte Indformatique 
