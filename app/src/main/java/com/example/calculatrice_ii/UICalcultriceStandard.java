@@ -1,9 +1,6 @@
 package com.example.calculatrice_ii;
 
 import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 
 import com.google.android.material.button.MaterialButton;
 
@@ -11,8 +8,6 @@ import com.google.android.material.button.MaterialButton;
  * Classe Interface Utilisateur de la calculatrice format standard
  */
 public class UICalcultriceStandard {
-    int operande_1;
-    boolean isOperande_1 = true;
     String val = "0";
     Calculatrice calculatrice = new Calculatrice();
 

@@ -16,9 +16,7 @@ import com.google.android.material.button.MaterialButton;
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    public String btn;
     public TextView textView;
-    private final boolean isOperration1 = true;
     private UICalcultriceStandard ui;
 
 
@@ -32,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Initialisation
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        this.textView = (TextView) findViewById(R.id.textView);
+        this.textView = findViewById(R.id.textView);
         this.ui = new UICalcultriceStandard();
         Log.i("BENOIT", "Vue pour la calculatrice créée");
     }
